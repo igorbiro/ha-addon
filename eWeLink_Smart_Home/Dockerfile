@@ -7,5 +7,5 @@ COPY ["./dist", "./package.json", "/workspace/"]
 WORKDIR /workspace
 RUN yarn --production
 COPY ["./node_modules", "/workspace/node_modules/"]
-EXPOSE 3000
+EXPOSE 4000
 CMD npm start

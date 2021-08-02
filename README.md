@@ -37,4 +37,4 @@ docker run -d \
   ewelink_smart_home
 ```
 
-5. Access port `3000`.
+5. Access port `4000`.

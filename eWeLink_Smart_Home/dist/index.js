@@ -106,7 +106,7 @@ coolkit_api_1.default.init({
     });
 }); })();
 var app = express_1.default();
-var port = 3000;
+var port = 4000;
 var apiPrefix = '/api';
 if (config_1.debugMode) {
     app.use(cors_1.default());
